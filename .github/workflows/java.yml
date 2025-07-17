@@ -21,7 +21,7 @@ jobs:
         java-version: '17'  # or 11, 21 etc.
 
     - name: Compile Java
-      run: javac src/Main.java
+      run: javac Main.java
 
     - name: Run Hello World
       run: java -cp src Main
