@@ -24,4 +24,4 @@ jobs:
       run: javac Main.java
 
     - name: Run Hello World
-      run: java -cp src Main
+      run: java Main
